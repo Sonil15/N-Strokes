@@ -154,7 +154,7 @@ complete = st.sidebar.checkbox(" Complete one-stroke kolam", value=False,
 boundary_type = "vajra"  # Default to 'diamond'
 if not complete:
     boundary_type = st.sidebar.selectbox(
-        " Boundary Shape",
+        "Motif",
         options=["vajra", "kona", "matsya", "taranga", "mandala", "prana"],
         index=0,
         help="Applies only in non-complete mode."
