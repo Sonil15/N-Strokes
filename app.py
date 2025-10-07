@@ -136,7 +136,7 @@ st.sidebar.markdown("""
 kolam_size = st.sidebar.slider(
     " Kolam Size", 
     min_value=3, 
-    max_value=101, 
+    max_value=45, 
     value=7, 
     step=2
 )
